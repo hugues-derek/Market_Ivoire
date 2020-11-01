@@ -21,7 +21,7 @@ export default class Default extends Component {
 						&nbsp;
 						<Link to="/">
 							<ButtonContainer
-								className="btn btn-info"
+								cart
 								style={{ "margin-top": "1em", "text-transform": "uppercase" }}
 							>
 								retour vers les produits

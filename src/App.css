@@ -10,6 +10,9 @@ body {
     font-family: "Oswald", sans-serif !important;
     background-color: var(--mainWhite) !important;
     color: var(--mainDark) !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .text-title {
@@ -44,4 +47,14 @@ body {
     cursor: pointer;
     font-size: 1.2rem;
     color: var(--mainYellow);
+}
+
+.footer {
+    position: fixed !important;
+    top: 15px !important;
+    bottom: 0px;
+}
+
+.panier-vide {
+    margin-bottom: 171px !important;
 }

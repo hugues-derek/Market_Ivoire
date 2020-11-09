@@ -8,6 +8,7 @@ import Details from "./Components/Details";
 import Default from "./Components/Default";
 import Cart from "./Components/Panier";
 import Modal from "./Components/Modal";
+import { FooterContainer } from "./Components/container/footer";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 				<Route component={Default} />
 			</Switch>
 			<Modal />
+			<FooterContainer />
 		</React.Fragment>
 	);
 }

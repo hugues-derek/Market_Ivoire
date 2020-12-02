@@ -1,6 +1,6 @@
 import React from "react";
+import {} from "dotenv/config";
 import PaypalExpressBtn from "react-paypal-express-checkout";
-import config from "dotenv";
 
 export default class Button extends React.Component {
 	render() {

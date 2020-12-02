@@ -19,3 +19,4 @@ Footer.Link = function FooterLink({ children, ...restProps }) {
 Footer.Title = function FooterTitle({ children, ...restProps }) {
 	return <Title {...restProps}>{children}</Title>;
 };
+
